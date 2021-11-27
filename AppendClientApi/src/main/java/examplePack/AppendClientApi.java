@@ -11,10 +11,10 @@ import static examplePack.Sources.topicName;
 
 @SpringBootApplication
 @EnableAdminServer
-public class SpringRestExample {
+public class AppendClientApi {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringRestExample.class);
+        SpringApplication.run(AppendClientApi.class);
 
         Thread t1 = new Thread(new Runnable() {
             @Override

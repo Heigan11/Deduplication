@@ -1,7 +1,7 @@
 examplePack/Sources.class
-examplePack/SpringRestExample.class
-examplePack/SpringRestExample$1.class
-examplePack/RestControllerExample.class
+examplePack/AppendClientApi$1.class
+examplePack/AppendClientApi.class
+examplePack/RestController.class
 examplePack/ClientRepository.class
 examplePack/KafkaConfig.class
 examplePack/Client.class

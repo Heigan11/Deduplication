@@ -12,15 +12,15 @@ sleep 5
 bin/kafka-topics.sh --create --topic mytest --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1 &
 sleep 5
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
-cd -
-cd ..
-cd rest
-mvn exec:java -Dexec.mainClass="examplePack.SpringRestExample" &
-sleep 10
-cd ..
-cd Consumer
-mvn exec:java -Dexec.mainClass="examplePack.SpringRestExample" &
-sleep 10
-cd ..
-cd UpdateClientApi
-mvn exec:java -Dexec.mainClass="examplePack.UpdateClientApi.UpdateClientApiApplication" &
+#cd -
+#cd ..
+#cd rest
+#mvn exec:java -Dexec.mainClass="examplePack.SpringRestExample" &
+#sleep 10
+#cd ..
+#cd Consumer
+#mvn exec:java -Dexec.mainClass="examplePack.SpringRestExample" &
+#sleep 10
+#cd ..
+#cd UpdateClientApi
+#mvn exec:java -Dexec.mainClass="examplePack.UpdateClientApi.UpdateClientApiApplication" &
