@@ -1,4 +1,4 @@
-package examplePack.UpdateClientApi;
+package mainPack.UpdateClientApi;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
