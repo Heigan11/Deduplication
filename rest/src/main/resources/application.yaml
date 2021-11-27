@@ -1,0 +1,22 @@
+server:
+  port: 5005
+
+spring:
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:5005/admin
+      context-path: /admin
+
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
