@@ -1,4 +1,4 @@
-package examplePack;
+package mainPack;
 
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.UUID;
 
-import static examplePack.Sources.counter;
-import static examplePack.Sources.topicName;
+import static mainPack.Sources.topicName;
 
 @org.springframework.web.bind.annotation.RestController
 @CrossOrigin

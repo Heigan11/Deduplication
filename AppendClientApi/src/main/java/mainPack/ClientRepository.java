@@ -1,4 +1,4 @@
-package examplePack;
+package mainPack;
 
 import org.springframework.data.repository.CrudRepository;
 

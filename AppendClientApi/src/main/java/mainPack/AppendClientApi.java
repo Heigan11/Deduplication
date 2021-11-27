@@ -1,4 +1,4 @@
-package examplePack;
+package mainPack;
 
 import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
@@ -7,7 +7,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 
 import java.util.UUID;
 
-import static examplePack.Sources.topicName;
+import static mainPack.Sources.topicName;
 
 @SpringBootApplication
 @EnableAdminServer

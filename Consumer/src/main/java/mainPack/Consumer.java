@@ -1,4 +1,4 @@
-package examplePack;
+package mainPack;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.http.HttpEntity;
@@ -9,11 +9,11 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-import static examplePack.Sources.topicName;
-import static examplePack.Sources.msg;
+import static mainPack.Sources.topicName;
+import static mainPack.Sources.msg;
 
 @Component
-public class DemoConsumer {
+public class Consumer {
 
     String requestUrl="http://localhost:5006/send";
 
