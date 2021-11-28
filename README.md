@@ -9,6 +9,7 @@
  - MySQL
  - Postgres
  - Kafka
+
 Алгоритм:
 1) Через форму по заданному URL вводятся данные клиента
 2) Spring Boot приложение (AppendClientApi) получает через Rest Api POST запрос по данному URL.
